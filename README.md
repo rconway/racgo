@@ -1,0 +1,2 @@
+# racgo
+Experimenting with go
