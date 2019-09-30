@@ -14,5 +14,5 @@ func checkEnvVar(t *testing.T, varname string, valExpected string) {
 func TestMain(t *testing.T) {
 	main()
 	checkEnvVar(t, "FREDBOB", "Barry")
-	checkEnvVar(t, "BURTLARRY", "Dean")
+	checkEnvVar(t, "BURTLARRY", "Gordon")
 }
