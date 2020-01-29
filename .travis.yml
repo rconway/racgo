@@ -25,8 +25,8 @@ go:
 # before_deploy:
 #   - echo "...before_deploy..."
 
-# deploy:
-#   - echo "...deploy..."
+deploy:
+  - echo "...deploy..."
 # after_deploy:
 #   - echo "...after_deploy..."
 
