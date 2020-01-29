@@ -2,7 +2,6 @@ language: go
 
 go:
   - 1.x
-
 # before_install:
 #   - echo "...before_install..."
 
@@ -12,8 +11,8 @@ go:
 # before_script:
 #   - echo "...before_script..."
 
-script:
-  - echo "...script..."
+# script:
+#   - echo "...script..."
 # before_cache:
 #   - echo "...before_cache..."
 
@@ -26,8 +25,8 @@ script:
 # before_deploy:
 #   - echo "...before_deploy..."
 
-deploy:
-  - echo "...deploy..."
+# deploy:
+#   - echo "...deploy..."
 # after_deploy:
 #   - echo "...after_deploy..."
 
