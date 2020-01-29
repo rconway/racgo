@@ -11,8 +11,8 @@ go:
 # before_script:
 #   - echo "...before_script..."
 
-# script:
-#   - echo "...script..."
+script:
+  - echo "...script..."
 # before_cache:
 #   - echo "...before_cache..."
 
@@ -22,8 +22,8 @@ go:
 # after_failure:
 #   - echo "...after_failure..."
 
-# before_deploy:
-#   - echo "...before_deploy..."
+before_deploy:
+  - echo "...before_deploy..."
 
 deploy:
   - echo "...deploy..."
