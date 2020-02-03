@@ -2,7 +2,6 @@ language: go
 
 go:
   - 1.x
-# 56927efc09c733a69da8aa388bd5b05b94af5d71
 
 sudo: required
 
