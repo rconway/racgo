@@ -1,0 +1,6 @@
+jobs:
+  include:
+    - stage: build and unit test
+      language: go
+      go:
+        - 1.x
