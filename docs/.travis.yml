@@ -1,7 +1,7 @@
 jobs:
   include:
     - stage: generate docs
-      if: branch = develop
+      if: branch = master
 
       sudo: required
 
