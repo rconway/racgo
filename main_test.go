@@ -15,5 +15,5 @@ func TestMain(t *testing.T) {
 	main()
 	checkEnvVar(t, "FREDBOB", "Barry")
 	checkEnvVar(t, "BURTLARRY", "Gordon")
-	checkEnvVar(t, "SHELL", "/bin/bashx")
+	checkEnvVar(t, "SHELL", "/bin/bash")
 }
