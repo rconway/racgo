@@ -4,4 +4,4 @@ jobs:
       language: go
       go:
         - 1.x
-      script: ./dotest.sh
+      script: ./travis/dotest.sh
