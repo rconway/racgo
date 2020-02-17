@@ -7,5 +7,3 @@
 echo "Running tests..."
 go test
 echo "...tests done"
-
-exit 1
